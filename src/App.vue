@@ -1,28 +1,35 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <form @submit.prevent="handleSubmit">
+      <input
+        type="text"
+        spellcheck="false"
+        v-model="userInput"
+        placeholder="spell the word"
+      />
+      <button type="submit">Submit</button>
+    </form>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import data from "./data";
 
 export default {
-  name: "App",
-  components: {
-    HelloWorld,
+  data() {
+    return {
+      questions: data,
+      activeIndex: 0,
+      userInput: "",
+    };
   },
+  
+  methods: {
+    handleSubmit() {
+      console.log(this.userInput)
+    }
+  }
 };
 </script>
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>
+<style></style>
