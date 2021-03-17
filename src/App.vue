@@ -29,7 +29,9 @@ export default {
   
   methods: {
     handleSubmit() {
-      console.log(this.userInput)
+      this.questions[this.activeIndex].userInput = this.userInput;
+      this.activeIndex += 1
+      this.userInput = "";
     }
   }
 };

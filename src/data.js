@@ -1,3 +1,142 @@
+// export default [
+//   {
+//     word: "never",
+//     userInput: null,
+//   },
+//   {
+//     word: "gonna",
+//     userInput: null,
+//   },
+//   {
+//     word: "give",
+//     userInput: null,
+//   },
+//   {
+//     word: "you",
+//     userInput: null,
+//   },
+//   {
+//     word: "up",
+//     userInput: null,
+//   },
+//   {
+//     word: "never",
+//     userInput: null,
+//   },
+//   {
+//     word: "gonna",
+//     userInput: null,
+//   },
+//   {
+//     word: "let",
+//     userInput: null,
+//   },
+//   {
+//     word: "you",
+//     userInput: null,
+//   },
+//   {
+//     word: "down",
+//     userInput: null,
+//   },
+//   {
+//     word: "never",
+//     userInput: null,
+//   },
+//   {
+//     word: "gonna",
+//     userInput: null,
+//   },
+//   {
+//     word: "run",
+//     userInput: null,
+//   },
+//   {
+//     word: "around",
+//     userInput: null,
+//   },
+//   {
+//     word: "and",
+//     userInput: null,
+//   },
+//   {
+//     word: "desert",
+//     userInput: null,
+//   },
+//   {
+//     word: "you",
+//     userInput: null,
+//   },
+//   {
+//     word: "never",
+//     userInput: null,
+//   },
+//   {
+//     word: "gonna",
+//     userInput: null,
+//   },
+//   {
+//     word: "make",
+//     userInput: null,
+//   },
+//   {
+//     word: "you",
+//     userInput: null,
+//   },
+//   {
+//     word: "cry",
+//     userInput: null,
+//   },
+//   {
+//     word: "never",
+//     userInput: null,
+//   },
+//   {
+//     word: "gonna",
+//     userInput: null,
+//   },
+//   {
+//     word: "say",
+//     userInput: null,
+//   },
+//   {
+//     word: "goodbye",
+//     userInput: null,
+//   },
+//   {
+//     word: "never",
+//     userInput: null,
+//   },
+//   {
+//     word: "gonna",
+//     userInput: null,
+//   },
+//   {
+//     word: "tell",
+//     userInput: null,
+//   },
+//   {
+//     word: "a",
+//     userInput: null,
+//   },
+//   {
+//     word: "lie",
+//     userInput: null,
+//   },
+//   {
+//     word: "and",
+//     userInput: null,
+//   },
+//   {
+//     word: "hurt",
+//     userInput: null,
+//   },
+//   {
+//     word: "you",
+//     userInput: null,
+//   },
+// ];
+
 export default [
     {
       word: "nauseous",
@@ -72,4 +211,3 @@ export default [
       userInput: null
     },
   ];
-  
