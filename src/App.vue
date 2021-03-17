@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <speech :word="questions[activeIndex].word" />
     <form @submit.prevent="handleSubmit">
       <input
         type="text"
@@ -13,9 +14,11 @@
 </template>
 
 <script>
+import Speech from './components/Speech';
 import data from "./data";
 
 export default {
+  components: { Speech },
   data() {
     return {
       questions: data,
